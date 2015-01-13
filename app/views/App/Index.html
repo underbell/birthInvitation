@@ -1,0 +1,136 @@
+{{set . "title" "소현이 첫 생일"}}
+{{template "header.html" .}}
+
+<div class="swiper-nav swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+			<span>초대글</span>
+		</div>
+		<div class="swiper-slide">
+			<span>오시는길</span>
+		</div>
+		<div class="swiper-slide">
+			<span>프로필</span>
+		</div>
+		<div class="swiper-slide">
+			<span>사진</span>
+		</div>
+		<div class="swiper-slide">
+			<span>동영상</span>
+		</div>
+	</div>
+</div>
+<div class="swiper-pages swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+			<div class="swiper-container scroll-container">
+				<div class="swiper-scrollbar"></div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="page-inner">
+							<h1>초대장</h1>
+							<img src="/public/img/photo/invit01.png" height="100%" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="swiper-container scroll-container">
+				<div class="swiper-scrollbar"></div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="page-inner">
+							<h1>오시는길</h1>
+							<iframe src="http://dna.daum.net/include/tools/routemap/map_view.php?width=480&height=550&latitude=35.21112193678777&longitude=129.00759123313586&contents=&zoom=3" width="480" height="550" scrolling="no" frameborder="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="swiper-container scroll-container">
+				<div class="swiper-scrollbar"></div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="page-inner">
+							<h1>소현이 프로필</h1>
+							<img src="/public/img/photo/invit02.png" height="100%" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="swiper-container swiper-gallery">
+				<div class="swiper-scrollbar"></div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="/public/img/photo/002.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/003.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/004.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/005.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/006.jpeg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/007.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/008.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/009.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/010.jpeg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/011.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/012.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/013.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/014.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/015.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/016.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="/public/img/photo/017.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide">
+			<div class="swiper-container scroll-container">
+				<div class="swiper-scrollbar"></div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="page-inner">
+							<video width="100%" height="100%" controls loop muted autoplay>
+							  <source src="/public/img/photo/2014.m4v" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{{template "footer.html" .}}
