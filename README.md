@@ -1,1 +1,1 @@
-My Daughter's 1st BirthParty Invitation.
+My Daughter's 1st Birthday Party Invitation.
