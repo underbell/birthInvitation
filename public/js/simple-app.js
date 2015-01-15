@@ -54,9 +54,9 @@ $(function(){
     // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
     Kakao.Link.createTalkLinkButton({
       container: '#kakao-link-btn',
-      label: '소현이의 첫번째 생일을 축하해주세요~',
+      label: '소현이의 첫번째 생일을 축하해주세요~♡',
       image: {
-        src: '/public/img/photo/invit01.png',
+        src: 'http://www.underbell.pe.kr/public/img/photo/invit01.png',
         width: '480',
         height: '800'
       },
