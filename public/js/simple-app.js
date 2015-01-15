@@ -49,7 +49,7 @@ $(function(){
 	swiperGallery.reInit()
 	
 	// 사용할 앱의 Javascript 키를 설정해 주세요.
-    Kakao.init('a4d22e0ef320effbf440e09dda663a1c');
+    Kakao.init('a4d22e0ef320effbf440e09dda663a1c')
 
     // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
     Kakao.Link.createTalkLinkButton({
@@ -64,5 +64,5 @@ $(function(){
         text: '소현이 돌잔치',
         url: 'http://www.underbell.pe.kr' // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
       }
-    });
+    })
 })

@@ -69,54 +69,11 @@
 			<div class="swiper-container swiper-gallery">
 				<div class="swiper-scrollbar"></div>
 				<div class="swiper-wrapper">
+					{{range .files}}
 					<div class="swiper-slide">
-						<img src="/public/img/photo/002.jpg">
+						<img src="/public/img/photo/gallery/{{.}}">
 					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/003.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/004.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/005.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/006.jpeg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/007.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/008.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/009.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/010.jpeg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/011.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/012.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/013.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/014.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/015.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/016.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img src="/public/img/photo/017.jpg">
-					</div>
+					{{end}}
 				</div>
 			</div>
 		</div>
